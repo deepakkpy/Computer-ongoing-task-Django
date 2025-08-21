@@ -125,3 +125,12 @@ You’re free to use, modify, and distribute with attribution.
 
 ## 👨‍💻 Author
   GitHub: [@deepakkpy](https://github.com/deepakkpy)
+
+
+
+## 👨‍💻 Screen Shots
+
+<img width="1878" height="903" alt="image" src="https://github.com/user-attachments/assets/b3f470f2-7ac5-4295-b3cd-614df79070ba" />
+<img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/fe846169-4cef-456a-b1b3-499a944a6cb8" />
+
+
