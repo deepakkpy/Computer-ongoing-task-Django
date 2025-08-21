@@ -125,4 +125,4 @@ You’re free to use, modify, and distribute with attribution.
 
 ## 👨‍💻 Author
 - **Your Name**  
-  GitHub: [@your-username](https://github.com/your-username)
+  GitHub: [@deepakkpy](https://github.com/deepakkpy)
