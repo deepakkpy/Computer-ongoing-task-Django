@@ -124,5 +124,4 @@ You’re free to use, modify, and distribute with attribution.
 ---
 
 ## 👨‍💻 Author
-- **Your Name**  
   GitHub: [@deepakkpy](https://github.com/deepakkpy)
