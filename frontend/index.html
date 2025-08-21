@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Process Monitor</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+<div class="app">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="brand">Monitors</div>
+    <div id="computers"><!-- Populated by JS --></div>
+    <div class="footer">
+      <button id="refreshList">Refresh List</button>
+      <label class="autorefresh">
+        <input type="checkbox" id="auto" /> Auto
+      </label>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="content">
+    <!-- Header -->
+    <div id="header" class="header">
+      <div id="hostTitle">Select a computer</div>
+      <div class="actions">
+        <button id="refresh">Refresh</button>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button id="tab-processes" class="tab active">Processes</button>
+      <button id="tab-system" class="tab">System Details</button>
+    </div>
+
+    <!-- Processes Tab -->
+    <section id="tab-content-processes" class="tab-content active">
+      <div id="procHeader" class="proc-header row-grid">
+        <div>Name</div>
+        <div>Memory (MB)</div>
+        <div>CPU (%)</div>
+        <div>PPID</div>
+      </div>
+      <div id="tree"></div>
+    </section>
+
+    <!-- System Details Tab -->
+    <section id="tab-content-system" class="tab-content">
+      <div id="syscard" class="syscard hidden"></div>
+    </section>
+  </main>
+</div>
+
+<!-- JS -->
+<script src="/static/ui.js"></script>
+</body>
+</html>
